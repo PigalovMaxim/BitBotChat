@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'),
+    url('./src/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'),
+    url('./src/assets/fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url('./src/assets/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: local('SFPro'),
+    url('./src/assets/fonts/SF-Pro-Text-Regular.otf') format('truetype');
+  font-weight: 400;
+}

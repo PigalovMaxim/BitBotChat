@@ -1,0 +1,17 @@
+@import '../../styles/colors.scss';
+
+.title {
+  margin-bottom: 30px;
+  h1 {
+    font-family: 'OpenSans';
+    font-weight: 700;
+    color: $bg;
+    font-size: 58px;
+  }
+  h2 {
+    font-family: 'OpenSans';
+    font-weight: 400;
+    color: $bg;
+    font-size: 18px;
+  }
+}

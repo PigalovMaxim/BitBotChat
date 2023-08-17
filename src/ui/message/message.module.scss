@@ -1,0 +1,39 @@
+@import '../../styles/colors.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 15px;
+  .message {
+    max-width: 66%;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-family: 'SFPro';
+    font-weight: 400;
+    background-color: $lightPrimary;
+    line-height: 140%;
+    font-size: 18px;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: $primary;
+    border-radius: 50%;
+  }
+}
+
+.right {
+  .message {
+    margin-left: auto;
+    background-color: $primary;
+    color: white;
+  }
+  .icon {
+    background-color: $lightPrimary;
+  }
+}
